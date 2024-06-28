@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.gamename{
+    font-size: 2rem;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: rgb(62, 62, 247);
+    border: 0.5px solid black;
+    box-shadow: 0.5px 0.5px 5px;
+    color: white;
+}
+.imag-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    gap: 3rem;
+    
+}
+.game{
+    margin-top: 2.5rem;
+    border: solid black 0.5px;
+    border-radius: 50%;
+    font-size: 8rem;
+    background-color: aqua;
+    cursor: pointer;
+}
+.game:hover{
+   background-color: black;
+}
+
+ .score-container{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+ }
+ .user-score{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+ }
+ .comp-score{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+ }
+ .userscore{
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+ }
+ .compscore{
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+ }
+p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.result{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+   
+}
